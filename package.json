@@ -1,0 +1,27 @@
+{
+  "name": "screening-movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peecky/node-screening-movies.git"
+  },
+  "keywords": [
+    "movie"
+  ],
+  "author": "peecky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peecky/node-screening-movies/issues"
+  },
+  "homepage": "https://github.com/peecky/node-screening-movies#readme",
+  "dependencies": {
+    "async": "^2.0.0",
+    "cheerio": "^0.20.0",
+    "request": "^2.73.0"
+  }
+}
