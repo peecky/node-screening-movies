@@ -1,6 +1,8 @@
 'use strict';
 
-require('./').getKoMovies({ genre: '애니메이션' }, (err, items) => {
+let func = require('./').getKoMovies;
+//func = require('./').getCGVMovies;
+func({ genre: '애니메이션' }, (err, items) => {
     if (err) throw err;
     console.log(items);
 });
