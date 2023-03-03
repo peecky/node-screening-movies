@@ -22,7 +22,7 @@
   "dependencies": {
     "aigle": "^1.14.1",
     "async": "^3.2.2",
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.12",
     "request": "^2.73.0",
     "superagent": "^5.2.2"
   }
